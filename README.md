@@ -41,5 +41,5 @@ parser.parse(key1)
 # obviously it is reuseable
 parser.parse(key2)
 
-# This will return parsed as above and something similar for key2
+# for key1 this will return parsed_key as above and something similar for key2
 ```
