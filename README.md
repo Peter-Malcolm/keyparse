@@ -1,5 +1,5 @@
 # keyparse
-_lets you parse keys\* by describing their structure._
+_keyparse lets you parse keys\* by describing their structure._
 
 \* keys may be filepaths, s3 object keys or something else similar.
 
