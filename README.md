@@ -30,7 +30,7 @@ parser = Keyparser(
   dirs=['first_folder', 'second_folder'],
   partitions=['partition1','partition2'],
   file=[('file_base', '[^.]+'), 
-        ('_1', '\w+\.\w+\.\w+'), 
+        ('_1', '\w+\.\w+\.\w+'), # elements starting with _ are ignored
         ('ext','\.\w+\.\w+')]
   )
 
