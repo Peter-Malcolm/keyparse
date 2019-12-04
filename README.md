@@ -10,7 +10,7 @@ Given a path like this:
 
 We want to make a dict with minimal effort:
 ```python
-parsed = {
+parsed_key = {
   'first_folder': 'folder1',
   'second_folder': folder2'.
   'partition1': 'one',
