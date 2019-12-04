@@ -21,3 +21,21 @@ parsed = {
 ```
 
 The code to do this would be: 
+```python
+# We have a key
+key='folder1/folder2/partition1=one/partition=two/complex_filename.with.multiple.extensions.tar.gz
+
+# So build the parser:
+parser = Keyparser(
+  dirs=['first_folder', 'second_folder'],
+  partitions=['partition1','partition2'],
+  file=[('file_base', '[^.]+'), 
+        ('_1', '\w+\.\w+\.\w+\.'), 
+        ('ext','\w+\.\w+')]
+  )
+
+# then use it
+parser.parse(key)
+
+# This will return parsed as above.
+```
