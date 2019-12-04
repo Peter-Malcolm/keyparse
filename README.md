@@ -25,7 +25,7 @@ parsed_key = {
 
 The code to do this would be: 
 ```python
-# We some keys
+# We have some keys
 key1 = 'folder1/folder2/partition1=one/partition=two/complex_filename.with.multiple.extensions.tar.gz
 key2 = 'folder1/folder2/partition1=won/partition=too/another_filename.with.possiblydifferent.extensions.tar.gz
 
