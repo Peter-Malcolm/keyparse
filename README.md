@@ -1,7 +1,7 @@
 # keyparse
 _keyparse lets you parse keys\* by describing their structure._
 
-\* keys may be filepaths, s3 object keys or something else similar.
+\* a key may be a filepath, an s3 object, or something else entirely (results may vary).
 
 ### an example
 Given a path like this: 
