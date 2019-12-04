@@ -19,7 +19,7 @@ parsed_key = {
   'partition1': 'one',
   'partition2': 'two',
   'file_base': 'complex_filename'
-  'ext': 'tar.gz'
+  'ext': '.tar.gz'
 }
 ```
 
