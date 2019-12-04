@@ -29,7 +29,7 @@ The code to do this would be:
 key1 = 'folder1/folder2/partition1=one/partition=two/complex_filename.with.multiple.extensions.tar.gz
 key2 = 'folder1/folder2/partition1=won/partition=too/another_filename.with.possiblydifferent.extensions.tar.gz
 
-# So build the parser:
+# first build the parser:
 parser = Keyparser(
   dirs=['first_folder', 'second_folder'],
   partitions=['partition1','partition2'],
