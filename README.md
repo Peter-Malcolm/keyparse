@@ -30,8 +30,8 @@ parser = Keyparser(
   dirs=['first_folder', 'second_folder'],
   partitions=['partition1','partition2'],
   file=[('file_base', '[^.]+'), 
-        ('_1', '\w+\.\w+\.\w+\.'), 
-        ('ext','\w+\.\w+')]
+        ('_1', '\w+\.\w+\.\w+'), 
+        ('ext','\.\w+\.\w+')]
   )
 
 # then use it
