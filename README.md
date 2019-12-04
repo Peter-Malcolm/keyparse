@@ -1,6 +1,5 @@
 # keyparse
-### motivation
-lets you parse keys* by describing their structure. 
+_lets you parse keys\* by describing their structure._
 
 \* keys may be filepaths, s3 object keys or something else similar.
 
