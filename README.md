@@ -23,7 +23,7 @@ parsed = {
 The code to do this would be: 
 ```python
 # We some keys
-key = 'folder1/folder2/partition1=one/partition=two/complex_filename.with.multiple.extensions.tar.gz
+key1 = 'folder1/folder2/partition1=one/partition=two/complex_filename.with.multiple.extensions.tar.gz
 key2 = 'folder1/folder2/partition1=won/partition=too/another_filename.with.possiblydifferent.extensions.tar.gz
 
 # So build the parser:
@@ -36,7 +36,7 @@ parser = Keyparser(
   )
 
 # then use it
-parser.parse(key)
+parser.parse(key1)
 
 # obviously it is reuseable
 parser.parse(key2)
