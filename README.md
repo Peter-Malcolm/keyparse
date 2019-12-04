@@ -1,8 +1,10 @@
 # keyparse
+## motivation
 lets you parse keys* by describing their structure. 
 
 \* keys may be filepaths, s3 object keys or something else similar.
 
+# what it does
 Given a path like this: 
 ```diff
 - folder1/folder2/
