@@ -1,5 +1,5 @@
 # keyparse
-_keyparse lets you parth like keys by describing their structure._
+_keyparse lets you parse path-like keys by describing their structure._
 
 \* a key may be a filepath, an s3 object, or something else entirely (results may vary).
 
