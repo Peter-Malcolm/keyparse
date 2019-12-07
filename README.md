@@ -1,5 +1,5 @@
 # keyparse
-_keyparse lets you parse keys\* by describing their structure._
+_keyparse lets you parth like keys by describing their structure._
 
 \* a key may be a filepath, an s3 object, or something else entirely (results may vary).
 
@@ -34,7 +34,7 @@ parser = Keyparser(
   dirs=['first_folder', 'second_folder'],
   partitions=['partition1','partition2'],
   file=[('file_base', '[^.]+'), 
-        ('_1', '\w+\.\w+\.\w+'), # elements starting with _ are ignored
+        ('_1', '\.with\.\w+\.\w+'), # elements starting with _ are ignored
         ('ext','\.\w+\.\w+')]
   )
 
