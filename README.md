@@ -11,7 +11,7 @@ Given a path like this:
 ? complex_filename.with.multiple.extensions.tar.gz
 ```
 
-We want to make the dict below with minimal effort:
+Suppose we want to generate the dict below with minimal effort:
 ```python
 parsed_key = {
   'first_folder': 'folder1',
